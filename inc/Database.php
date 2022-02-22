@@ -1,6 +1,6 @@
 <?php
 
-class datebase {
+class Database {
     private $conn;
     private $host;
     private $user;
@@ -9,8 +9,8 @@ class datebase {
 
     function __construct() {
         $this -> host = 'localhost';
-        $this -> user = 'root';
-        $this -> password = '';
+        $this -> user = 'newsportal';
+        $this -> password = 'newsportal';
         $this -> baseName = 'newsportal';
         $this -> connect();
     }
